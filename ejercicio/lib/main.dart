@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       title: 'Sesion 2',
       theme: ThemeData(
         useMaterial3: true,
-        primarySwatch: Color.fromARGB(255, 134, 199, 252),
+        primarySwatch: Colors.blue,
       ),
       home: const Menu(),
     );
