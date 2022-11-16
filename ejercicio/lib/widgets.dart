@@ -12,7 +12,7 @@ class ButtonWidget extends StatelessWidget {
       height: 50,
       minWidth: double.infinity,
       elevation: 1,
-      color: const Color.fromARGB(255, 6, 59, 103),
+      color: const Color.fromARGB(255, 73, 1, 49),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
       child: Text(
         text!,

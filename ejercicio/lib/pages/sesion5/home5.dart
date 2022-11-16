@@ -7,7 +7,7 @@ class Home5Page extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color.fromARGB(255, 255, 122, 237),
+        backgroundColor: const Color.fromARGB(255, 255, 122, 237),
         title: const Text('Caso 5: Perfil'),
         centerTitle: true,
       ),

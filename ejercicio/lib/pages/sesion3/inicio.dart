@@ -27,7 +27,7 @@ class _IndexSesion3State extends State<IndexSesion3> {
       ),
       body: Container(
         width: double.infinity,
-        color: Colors.amber,
+        color: const Color.fromARGB(255, 255, 230, 156),
         child: Padding(
           padding: const EdgeInsets.all(8.0),
           child: ListView(
@@ -36,7 +36,7 @@ class _IndexSesion3State extends State<IndexSesion3> {
                   height: 50,
                   minWidth: double.infinity,
                   elevation: 1,
-                  color: Colors.green,
+                  color: const Color.fromARGB(255, 182, 240, 184),
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(30)),
                   child: Row(

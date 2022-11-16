@@ -1,5 +1,6 @@
+import 'package:ejercicio/pages/Sesion5/home5.dart';
 import 'package:ejercicio/pages/sesion4/home4.dart';
-import 'package:ejercicio/pages/sesion5.dart/home5.dart';
+import 'package:ejercicio/pages/sesion6/screen/home6screen.dart';
 import 'package:flutter/material.dart';
 
 import 'pages/sesion3/inicio.dart';
@@ -10,10 +11,11 @@ class Menu extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 255, 184, 240),
+      backgroundColor: const Color.fromARGB(255, 253, 207, 247),
       appBar: AppBar(
         centerTitle: true,
         title: const Text('Sesiones'),
+        backgroundColor: const Color.fromARGB(255, 216, 80, 198),
         elevation: 0,
       ),
       body: Padding(
@@ -48,6 +50,15 @@ class Menu extends StatelessWidget {
                 );
               },
             ),
+            buttonWidget(
+              name: 'Sesion 6',
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const Home6Screen()),
+                );
+              },
+            ),
           ],
         ),
       ),
@@ -59,7 +70,7 @@ class Menu extends StatelessWidget {
       height: 50,
       minWidth: double.infinity,
       elevation: 1,
-      color: Color.fromARGB(255, 83, 2, 83),
+      color: const Color.fromARGB(255, 83, 2, 70),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
       child: Text(
         name!,
